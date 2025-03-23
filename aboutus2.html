@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - CaRental</title>
+    <link rel="stylesheet" href="aboutus.css">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"> -->
+</head>
+<body>
+    <nav class="top-nav">
+        <a href="index.php" class="logo">CaRental</a>
+        <ul class="nav-links">
+            <li><a href="index.php">Home</a></li>
+            <li><a href="co.html">Contact</a></li>
+            <li><a href="about.html" class="active">About Us</a></li>
+        </ul>
+        <div class="menu-toggle" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <div class="page-container">
+        <h1 class="overview">About CaRental</h1>
+        <p class="hero-tagline">Revolutionizing Car Rental with Convenience and Innovation</p>
+        <section class="content-section">
+            <h2 class="category-title">Our Mission</h2>
+            <div class="mission-container">
+                <div class="mission-text">
+                    <p>CaRental was founded with a simple yet powerful vision: to make car rentals accessible, convenient, and hassle-free for everyone. We understand that transportation is more than just moving from point A to point B – it's about providing freedom, flexibility, and reliable service.</p>
+                    <p>Our web-based platform eliminates the traditional complexities of car rentals, offering users a seamless experience to browse, book, and manage their rental needs with just a few clicks.</p>
+                </div>
+                <div class="mission-image">
+                    <img src="images/mission.jpg" alt="CaRental Mission" />
+                </div>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <h2 class="category-title">Our Team</h2>
+            <div class="team-grid">
+                <div class="team-card">
+                    <div class="team-image-container">
+                        <img src="images/pic.jpg" alt="Channveer Mulge" class="team-image" />
+                    </div>
+                    <div class="team-details">
+                        <h3>Channveer Mulge</h3>
+                        <p>Developer</p>
+                    </div>
+                </div>
+                <div class="team-card">
+                    <div class="team-image-container">
+                        <img src="images/sid.jpg" alt="Siddhesh Sapkale" class="team-image" />
+                    </div>
+                    <div class="team-details">
+                        <h3>Siddhesh Sapkale</h3>
+                        <p>Developer</p>
+                    </div>
+                </div>
+                <div class="team-card">
+                    <div class="team-image-container">
+                        <img src="images/Photo.jpeg.jpg" alt="Soham Shirke" class="team-image" />
+                    </div>
+                    <div class="team-details">
+                        <h3>Soham Shirke</h3>
+                        <p>Developer</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <h2 class="category-title">Our Core Values</h2>
+            <div class="values-grid">
+                <div class="value-card">
+                    <div class="value-icon">
+                        <span>✓</span>
+                    </div>
+                    <div class="value-details">
+                        <h3>Convenience</h3>
+                        <p>Making car rentals simple and accessible for everyone through our intuitive platform.</p>
+                    </div>
+                </div>
+                <div class="value-card">
+                    <div class="value-icon">
+                        <span>↗</span>
+                    </div>
+                    <div class="value-details">
+                        <h3>Transparency</h3>
+                        <p>Providing clear, upfront information about our services and pricing with no hidden fees.</p>
+                    </div>
+                </div>
+                <div class="value-card">
+                    <div class="value-icon">
+                        <span>✦</span>
+                    </div>
+                    <div class="value-details">
+                        <h3>Innovation</h3>
+                        <p>Continuously improving our platform with the latest technology to serve you better.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script>
+        function toggleMenu() {
+            const menu = document.querySelector('.nav-links');
+            menu.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
